@@ -5,7 +5,7 @@ import boto3
 ec2 = boto3.client('ec2')
 
 # Create a VPC (Virtual Private Cloud) in AWS with the specified CIDR block
-vpc = ec2.create_vpc(CidrBlock='10.0.0.0/16')
+vpc = ec2.create_vpc(CidrBlock='12.0.2.0/24')
 
 # Print the VPC ID of the newly created VPC
 print(vpc['Vpc']['VpcId'])
