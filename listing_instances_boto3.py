@@ -7,7 +7,7 @@ ec2 = boto3.client('ec2')
 # Describe instances to retrieve information about running instances
 response = ec2.describe_instances()
 
-# Loop through each reservation containing instances
+# Loop through each reservation containing instances.
 for reservation in response['Reservations']:
     for instance in reservation['Instances']:
         # Print various instance information: Instance ID, Type, Image ID, VPC ID, Subnet ID, and State

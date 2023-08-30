@@ -25,7 +25,7 @@ def start_instance(client, instance_id):
     # Print a message indicating that the instance has been started
     print(instance_id, 'started')
 
-# Define a function to terminate an EC2 instance
+# Define a function to terminate an EC2 instance.
 def terminate_instance(client, instance_id):
     # Terminate the specified instance
     response = ec2.terminate_instances(

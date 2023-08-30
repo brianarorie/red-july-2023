@@ -18,7 +18,7 @@ def get_vpc_name(client, filter=[]):
                     # Print the value of the "Name" tag for the VPC
                     print(tag['Value'])
 
-# Create an EC2 client instance using boto3
+# Create an EC2 client instance using boto3.
 ec2 = boto3.client('ec2')
 
 # Define filters for VPC description

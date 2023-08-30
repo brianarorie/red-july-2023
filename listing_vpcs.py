@@ -18,3 +18,4 @@ ec2 = boto3.client('ec2')
 Filters=[{'Name': 'isDefault','Values': ['true',]},]
     
 get_vpc_information(ec2)
+.

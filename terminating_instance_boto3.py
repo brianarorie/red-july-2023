@@ -10,3 +10,5 @@ def terminate_instance(client, instance_id):
     )
     
     print(instance_id, 'terminated')
+    
+    #.

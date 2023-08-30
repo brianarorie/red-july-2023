@@ -32,5 +32,7 @@ if __name__ == '__main__':
     
     ec2 = boto3.client('ec2')
     terminate_instance(ec2, instance_id)
+    
+    #.
 
 

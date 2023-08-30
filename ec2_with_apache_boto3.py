@@ -3,7 +3,7 @@ import boto3
 
 # Define a function to create an EC2 instance with the provided parameters
 def create_instance(client, ami_id, security_group, key_pair_id, user_data=None):
-    # Run an EC2 instance with the specified parameters
+    # Run an EC2 instance with the specified parameters.
     response = client.run_instances(
         ImageId=ami_id,  # ID of the Amazon Machine Image (AMI) to use
         InstanceType='t2.micro',  # Instance type (size)

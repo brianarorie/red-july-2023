@@ -10,3 +10,5 @@ def start_instance(client, instance_id):
     )
     
     print(instance_id, 'started')
+    
+    #.

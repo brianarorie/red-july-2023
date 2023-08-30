@@ -1,7 +1,7 @@
 # Import the boto3 library, which provides an interface to interact with AWS services
 import boto3
 
-# Define the security group ID
+# Define the security group ID.
 security_group_id = 'sg-0cbbe32ca4b5f411e'
 
 # Create an EC2 client instance using boto3

@@ -7,7 +7,7 @@ s3 = boto3.client('s3')
 # List buckets to retrieve information about S3 buckets
 response = s3.list_buckets()
 
-# Access the list of buckets from the response
+# Access the list of buckets from the response.
 buckets = response['Buckets']
 
 # Loop through each bucket in the list

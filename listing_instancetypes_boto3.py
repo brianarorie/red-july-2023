@@ -17,7 +17,7 @@ response = ec2.describe_instance_types(
 
 )
 
-# Access the list of instance types from the response
+# Access the list of instance types from the response.
 instance_types = response['InstanceTypes']
 
 # Loop through each instance type and print its name

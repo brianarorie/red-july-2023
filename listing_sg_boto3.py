@@ -18,7 +18,7 @@ for sg in response['SecurityGroups']:
         if 'FromPort' in permission:
             print(permission['FromPort'])
 
-        # Check and print IP protocol if available
+        # Check and print IP protocol if available.
         if 'IpProtocol' in permission:
             print(permission['IpProtocol'])
         

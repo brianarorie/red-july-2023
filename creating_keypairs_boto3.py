@@ -5,7 +5,7 @@ import os
 # Define the name for the key pair
 my_key_pair = 'boto3 keys'
 
-# Define the file name for the private key file
+# Define the file name for the private key file.
 file_name = 'new-key-from-boto3.pem'
 
 # Create an EC2 client instance using boto3

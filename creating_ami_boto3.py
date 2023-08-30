@@ -1,7 +1,7 @@
 # Import the boto3 library, which provides an interface to interact with AWS services
 import boto3
 
-# Create an EC2 client instance using boto3
+# Create an EC2 client instance using boto3.
 ec2 = boto3.client('ec2')
 
 # Create an image (snapshot) of a specific EC2 instance
