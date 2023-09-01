@@ -5,7 +5,11 @@ import boto3
 route_table_id = 'rtb-0f2bc90920ba6b0eb'
 subnet_id = 'subnet-064802d15c9fe01aa'
 
-# Create an EC2 client instance using boto3l
+<<<<<<< HEAD
+# Create an EC2 client instance using boto3
+=======
+# Create an EC2 client instance using boto3
+>>>>>>> cf88ee0a63858174119b2ea0f4ce59326e091a88
 ec2 = boto3.client('ec2')
 
 # Associate the specified route table with the specified subnet

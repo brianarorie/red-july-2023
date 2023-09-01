@@ -5,7 +5,11 @@ import boto3
 internet_gateway_id = 'igw-0d021e0f489d215f0'
 vpc_id = 'vpc-0a11a920a7685f904'
 
+<<<<<<< HEAD
 # Create an EC2 client instance using boto3l
+=======
+# Create an EC2 client instance using boto3
+>>>>>>> cf88ee0a63858174119b2ea0f4ce59326e091a88
 ec2 = boto3.client('ec2')
 
 # Attach the specified Internet Gateway to the specified VPC

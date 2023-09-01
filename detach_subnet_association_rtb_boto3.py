@@ -14,7 +14,11 @@ response = ec2.describe_route_tables(
     ],
 )
 
+<<<<<<< HEAD
 # Iterate through associations of the route table.
+=======
+# Iterate through associations of the route table
+>>>>>>> cf88ee0a63858174119b2ea0f4ce59326e091a88
 for association in response['RouteTables'][0]['Associations']:
     if not association['Main']:
         # Retrieve the ID of the association
