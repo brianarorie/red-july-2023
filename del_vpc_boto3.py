@@ -5,6 +5,7 @@ import boto3
 vpc_id = 'vpc-0a11a920a7685f904'
 
 # Create an EC2 client instance using boto3
+
 ec2 = boto3.client('ec2')
 
 # Delete the specified VPC
