@@ -4,7 +4,7 @@ import boto3
 # Create an EC2 client instance using boto3
 ec2 = boto3.client('ec2')
 
-# Create a new security group.
+# Create a new security group
 response = ec2.create_security_group(
     Description='boto3 security group',  # Description of the security group
     GroupName='boto3 sg',  # Name of the security group
