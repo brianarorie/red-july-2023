@@ -6,7 +6,7 @@ ami_id = 'ami-08d701b1d715c35f9'
 key_pair_id = 'boto3 keys'
 security_group = 'sg-0cbbe32ca4b5f411e'
 
-# Create an EC2 client instance using boto3.
+# Create an EC2 client instance using boto3
 ec2 = boto3.client('ec2')
 
 # Run an EC2 instance
