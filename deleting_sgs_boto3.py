@@ -9,5 +9,3 @@ response = ec2.delete_security_group(
 )
 
 print(response)
-
-.
